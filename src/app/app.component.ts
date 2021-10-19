@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { disableDebugTools } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
@@ -7,16 +8,11 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
-  title = 'SaudePlus';
+  title = 'Cuide-se +';
   modalbase: boolean = true;
 
   constructor() {
   }
-
-  public abrirModalImc() {
-    if (this.modalbase = true) {
-      var myDialog: any = <any>document.getElementById("Calcule seu IMC");
-      myDialog.showModal();
-    } else (this.modalbase = false)
-  }
 }
+
+

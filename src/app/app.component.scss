@@ -20,10 +20,6 @@
     margin: 0;
   }
 
-  .cor-fundo {
-    background-color: #023600;
-  }
-
   // texto saúde plus ao topo
   .ajuste-texto {
     width: 25px;
@@ -44,7 +40,7 @@
     height: 60px;
     display: flex;
     align-items: center;
-    background-color: #c242c2;
+    background-color: #1be490;
     color: white;
     font-weight: 100%;
     font-size: 220%;
@@ -67,7 +63,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 16px;
   }
 
   .card {
@@ -181,7 +176,7 @@
   }
 
   .card.highlight-card {
-    background-color: #c242c2;
+    background-color: #1be490;
     color: white;
     font-weight: 600;
     border: none;
@@ -318,18 +313,5 @@
     .card.highlight-card span {
       margin-left: 72px;
     }
-
-    svg#rocket-smoke {
-      right: 120px;
-      transform: rotate(-5deg);
-    }
   }
 
-  @media screen and (max-width: 575px) {
-    svg#rocket-smoke {
-      display: none;
-      visibility: hidden;
-    }
-  }
-
-  
